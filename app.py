@@ -42,6 +42,11 @@ section[data-testid="stSidebar"]{
     background-color:#F5F7FA;
 }
 
+/* Turunkan isi sidebar */
+section[data-testid="stSidebar"] > div:first-child{
+    padding-top:60px;
+}
+
 /* Judul Sidebar */
 section[data-testid="stSidebar"] h2{
     color:#0F4C81;
