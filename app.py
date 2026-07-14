@@ -27,10 +27,6 @@ footer{
     visibility:hidden;
 }
 
-header{
-    visibility:hidden;
-}
-
 /* Hilangkan padding atas */
 .block-container{
     padding-top:2rem;
