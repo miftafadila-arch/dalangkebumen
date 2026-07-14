@@ -7,7 +7,7 @@ import plotly.express as px
 # PENGATURAN HALAMAN
 # ==================
 st.set_page_config(
-    page_title="DALANG KEBUMEN",
+    page_title="DALAANG KEBUMEN",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -352,8 +352,6 @@ fig.update_traces(
 fig.update_layout(
 
     template="plotly_white",
-
-    title=None,
 
     xaxis_title="Bulan ke-",
 
