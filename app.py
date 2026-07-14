@@ -161,7 +161,7 @@ df["Bulan"] = df["Nomor Bulan"].map(bulan_dict)
 
 # SIDEBAR
 # =======
-st.sidebar.markdown("## 📌 Filter Dashboard")
+st.sidebar.markdown("## 📌 Filter")
 
 st.sidebar.divider()
 
