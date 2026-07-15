@@ -94,7 +94,7 @@ DALANG KEBUMEN
 </h1>
 
 <p style="
-margin:6px 0;
+margin:2px 0;
 font-size:18px;
 color:white;
 ">
@@ -102,7 +102,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 </p>
 
 <p style="
-margin:0;
+margin:2px 0 0 0;
 font-size:14px;
 color:#EEF5FF;
 ">
