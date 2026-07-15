@@ -380,7 +380,7 @@ fig.update_layout(
     hovermode="closest",
 
     font=dict(
-        color="#222222",
+        color="black",
         size=12
     ),
 
