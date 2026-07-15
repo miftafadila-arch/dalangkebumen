@@ -281,17 +281,11 @@ if grafik.empty:
 # GRAFIK
 # ======
 fig = px.bar(
-
     grafik,
-
     x="Bulan",
-
     y="Jumlah",
-
     color="Jenis UTTP",
-
     barmode="stack",
-
     category_orders={
         "Bulan":[
             "Januari",
@@ -319,40 +313,39 @@ fig = px.bar(
     "#26A69A",
     "#8D6E63"
 ]
-
 )
 
 for _, row in total_bulan.iterrows():
-
     fig.add_annotation(
-
         x=row["Bulan"],
-
         y=row["Jumlah"],
-
         text=f'{row["Jumlah"]}',
-
         showarrow=False,
-
         yshift=8,
-
         font=dict(
             size=14,
             color="black"
         )
-
     )
 
 fig.update_xaxes(
     showline=True,
     linewidth=1,
-    linecolor="black"
+    linecolor="black",
+    tickfont=dict(
+        color="black",
+        size=12
+    )
 )
 
 fig.update_yaxes(
     showline=True,
     linewidth=1,
-    linecolor="black"
+    linecolor="black",
+    tickfont=dict(
+        color="black",
+        size=12
+    )
 )
 
 # ESTETIKA
@@ -365,33 +358,44 @@ fig.update_traces(
 )
 
 fig.update_layout(
-
     template="plotly_white",
-
     xaxis_title="Bulan ke-",
-
     yaxis_title="Jumlah UTTP yang Tertera (Unit)",
+    
+    xaxis_title_font=dict(
+        color="black",
+        size=16
+    ),
+
+    yaxis_title_font=dict(
+        color="black",
+        size=16
+    ),
 
     legend_title="Jenis UTTP",
 
     legend=dict(
-    title="Jenis UTTP",
-    orientation="v",
-    y=1,
-    yanchor="top",
-    x=1.02,
-    xanchor="left",
-    bgcolor="rgba(0,0,0,0)",
-    bordercolor="black",
-    borderwidth=1
-    ),
+        title_font=dict(
+            color="black",
+            size=16
+        ),
+        font=dict(
+            color="black",
+            size=12
+        ),
+        orientation="v",
+        y=1,
+        yanchor="top",
+        x=1.02,
+        xanchor="left",
+        bgcolor="rgba(0,0,0,0)",
+        bordercolor="black",
+        borderwidth=1
+        ),
 
     height=650,
-
     plot_bgcolor="white",
-
     paper_bgcolor="white",
-
     hovermode="closest",
 
     font=dict(
@@ -405,34 +409,23 @@ fig.update_layout(
         t=40,
         b=40
     )
-
 )
 
 fig.update_yaxes(
-
     showgrid=True,
-
     gridcolor="#E5E5E5",
-
     zeroline=False
-
 )
 
 fig.update_xaxes(
-
     showgrid=False
-
 )
 
 st.plotly_chart(
-
     fig,
-
     use_container_width=True,
-
     config={
         "displaylogo":False,
         "responsive":True
     }
-
 )
