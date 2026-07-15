@@ -330,13 +330,13 @@ for _, row in total_bulan.iterrows():
 fig.update_xaxes(
     showline=True,
     linewidth=1,
-    linecolor="#BDBDBD"
+    linecolor="black"
 )
 
 fig.update_yaxes(
     showline=True,
     linewidth=1,
-    linecolor="#BDBDBD"
+    linecolor="black"
 )
 
 # ESTETIKA
