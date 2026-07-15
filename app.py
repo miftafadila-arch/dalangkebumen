@@ -62,48 +62,64 @@ box-shadow:0 4px 10px rgba(0,0,0,0.15);
 margin-bottom:25px;
 ">
 
-<div style="display:flex;justify-content:space-between;align-items:center;">
-<div>
-
-<h1 style="
-margin:0;
-color:white;
-font-size:28px;
-font-weight:bold;
-">
-DALANG KEBUMEN
-</h1>
-
-<p style="
-margin:4px 0;
-font-size:17px;
-color:white;
-">
-Dashboard Pelayanan Tera / Tera Ulang
-</p>
-
-<p style="
-margin:0;
-font-size:13px;
-color:#EEF5FF;
-">
-UPTD Metrologi Legal Kabupaten Kebumen
-</p>
-
-</div>
-
 <div style="
 display:flex;
 align-items:center;
-gap:15px;
+justify-content:space-between;
 ">
 
-<img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-         width="30">
-<img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-         width="40">
+    <!-- Logo Kiri -->
+    <div style="
+    width:90px;
+    display:flex;
+    justify-content:flex-start;
+    ">
+        <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
+             width="60">
+    </div>
 
-</div>
+    <!-- Judul Tengah -->
+    <div style="
+    flex:1;
+    text-align:center;
+    ">
+
+        <h1 style="
+        margin:0;
+        color:white;
+        font-size:30px;
+        font-weight:bold;
+        ">
+        DALANG KEBUMEN
+        </h1>
+
+        <p style="
+        margin:6px 0;
+        font-size:18px;
+        color:white;
+        ">
+        Dashboard Pelayanan Tera / Tera Ulang
+        </p>
+
+        <p style="
+        margin:0;
+        font-size:14px;
+        color:#EEF5FF;
+        ">
+        UPTD Metrologi Legal Kabupaten Kebumen
+        </p>
+
+    </div>
+
+    <!-- Logo Kanan -->
+    <div style="
+    width:90px;
+    display:flex;
+    justify-content:flex-end;
+    ">
+        <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
+             width="60">
+    </div>
 
 </div>
 
