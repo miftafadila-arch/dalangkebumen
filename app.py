@@ -68,58 +68,58 @@ align-items:center;
 justify-content:space-between;
 ">
 
-    <!-- Logo Kiri -->
-    <div style="
-    width:90px;
-    display:flex;
-    justify-content:flex-start;
-    ">
-        <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-             width="60">
-    </div>
+<!-- Logo Kiri -->
+<div style="
+width:90px;
+display:flex;
+justify-content:flex-start;
+">
+<img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
+    width="60">
+</div>
 
-    <!-- Judul Tengah -->
-    <div style="
-    flex:1;
-    text-align:center;
-    ">
+<!-- Judul Tengah -->
+<div style="
+flex:1;
+text-align:center;
+">
 
-        <h1 style="
-        margin:0;
-        color:white;
-        font-size:30px;
-        font-weight:bold;
-        ">
-        DALANG KEBUMEN
-        </h1>
+<h1 style="
+margin:0;
+color:white;
+font-size:30px;
+font-weight:bold;
+">
+DALANG KEBUMEN
+</h1>
 
-        <p style="
-        margin:6px 0;
-        font-size:18px;
-        color:white;
-        ">
-        Dashboard Pelayanan Tera / Tera Ulang
-        </p>
+<p style="
+margin:6px 0;
+font-size:18px;
+color:white;
+">
+Dashboard Pelayanan Tera / Tera Ulang
+</p>
 
-        <p style="
-        margin:0;
-        font-size:14px;
-        color:#EEF5FF;
-        ">
-        UPTD Metrologi Legal Kabupaten Kebumen
-        </p>
+<p style="
+margin:0;
+font-size:14px;
+color:#EEF5FF;
+">
+UPTD Metrologi Legal Kabupaten Kebumen
+</p>
 
-    </div>
+</div>
 
-    <!-- Logo Kanan -->
-    <div style="
-    width:90px;
-    display:flex;
-    justify-content:flex-end;
-    ">
-        <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-             width="60">
-    </div>
+<!-- Logo Kanan -->
+<div style="
+width:90px;
+display:flex;
+justify-content:flex-end;
+">
+<img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
+    width="60">
+</div>
 
 </div>
 
