@@ -101,7 +101,7 @@ gap:12px;
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
          width="30">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-         width="30">
+         width="40">
 
 </div>
 
