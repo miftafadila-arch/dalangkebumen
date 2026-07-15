@@ -71,7 +71,7 @@ color:white;
 font-size:28px;
 font-weight:bold;
 ">
-📊 DALANG KEBUMEN
+DALANG KEBUMEN
 </h1>
 
 <p style="
@@ -366,7 +366,7 @@ fig.update_layout(
     x=1.02,
     xanchor="left",
     bgcolor="rgba(0,0,0,0)",
-    bordercolor="#DDDDDD",
+    bordercolor="black",
     borderwidth=1
     ),
 
