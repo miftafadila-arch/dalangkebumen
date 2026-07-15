@@ -94,7 +94,7 @@ UPTD Metrologi Legal Kabupaten Kebumen
 
 <div style="text-align:right;">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-         width="70">
+         width="40">
 </div>
 
 </div>
