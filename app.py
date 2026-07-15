@@ -3,6 +3,15 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import base64
+
+# FUNGSI MENGUBAH GAMBAR KE BASE
+# ==============================
+def get_base64(file):
+    with open(file, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+background = get_base64("bg/logometro-removebg-preview.png")
 
 # PENGATURAN HALAMAN
 # ==================
@@ -15,8 +24,17 @@ st.set_page_config(
 
 # CSS SEDERHANA
 # =============
-st.markdown("""
+st.markdown(f"""
 <style>
+
+# Background Dashboard
+.stApp {{
+    background-image: url("data:image/png;base64,{background}");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}}
 
 # Sembunyiin menu Streamlit
 #MainMenu{
