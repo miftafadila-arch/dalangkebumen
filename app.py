@@ -7,7 +7,7 @@ import plotly.express as px
 # PENGATURAN HALAMAN
 # ==================
 st.set_page_config(
-    page_title="DALAANG KEBUMEN",
+    page_title="DALANG KEBUMEN",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -85,7 +85,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 <p style="
 margin:0;
 font-size:13px;
-color:#E3F2FD;
+color:#EEF5FF;
 ">
 UPTD Metrologi Legal Kabupaten Kebumen
 </p>
