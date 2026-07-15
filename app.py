@@ -18,7 +18,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Sembunyikan menu Streamlit */
+# Sembunyiin menu Streamlit
 #MainMenu{
     visibility:hidden;
 }
@@ -27,23 +27,23 @@ footer{
     visibility:hidden;
 }
 
-/* Hilangkan padding atas */
+# Hilangin padding atas
 .block-container{
     padding-top:2rem;
     padding-bottom:1rem;
 }
 
-/* Sidebar */
+# Sidebar
 section[data-testid="stSidebar"]{
     background-color:#F5F7FA;
 }
 
-/* Turunkan isi sidebar */
+# Turunin isi sidebar
 section[data-testid="stSidebar"] > div:first-child{
     padding-top:60px;
 }
 
-/* Judul Sidebar */
+# Judul Sidebar
 section[data-testid="stSidebar"] h2{
     color:#0F4C81;
 }
@@ -52,6 +52,7 @@ section[data-testid="stSidebar"] h2{
 """, unsafe_allow_html=True)
 
 # DASHBOARD
+# =========
 st.markdown("""
 <div style="
 background: linear-gradient(90deg, #1565C0 0%, #1E88E5 100%);
@@ -62,7 +63,6 @@ margin-bottom:25px;
 ">
 
 <div style="display:flex;justify-content:space-between;align-items:center;">
-
 <div>
 
 <h1 style="
@@ -94,7 +94,7 @@ UPTD Metrologi Legal Kabupaten Kebumen
 
 <div style="
 text-align:right;
-color:white;
+color:black;
 ">
 
 <div style="
