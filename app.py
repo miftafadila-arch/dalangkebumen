@@ -27,7 +27,7 @@ st.set_page_config(
 st.markdown(f"""
 <style>
 
-# Background Dashboard
+/* Background Dashboard */
 .stApp {{
     background-image: url("data:image/png;base64,{background}");
     background-size: 350px;
@@ -36,35 +36,35 @@ st.markdown(f"""
     background-attachment: fixed;
 }}
 
-# Sembunyiin menu Streamlit
-#MainMenu{
+/* Sembunyikan menu Streamlit */
+#MainMenu {{
     visibility:hidden;
-}
+}}
 
-footer{
+footer {{
     visibility:hidden;
-}
+}}
 
-# Hilangin padding atas
-.block-container{
+/* Hilangkan padding atas */
+.block-container {{
     padding-top:2rem;
     padding-bottom:1rem;
-}
+}}
 
-# Sidebar
-section[data-testid="stSidebar"]{
+/* Sidebar */
+section[data-testid="stSidebar"] {{
     background-color:white;
-}
+}}
 
-# Turunin isi sidebar
-section[data-testid="stSidebar"] > div:first-child{
+/* Turunkan isi sidebar */
+section[data-testid="stSidebar"] > div:first-child {{
     padding-top:60px;
-}
+}}
 
-# Judul Sidebar
-section[data-testid="stSidebar"] h2{
+/* Judul Sidebar */
+section[data-testid="stSidebar"] h2 {{
     color:#0F4C81;
-}
+}}
 
 </style>
 """, unsafe_allow_html=True)
