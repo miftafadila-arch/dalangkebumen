@@ -35,7 +35,7 @@ footer{
 
 # Sidebar
 section[data-testid="stSidebar"]{
-    background-color:#F5F7FA;
+    background-color:white;
 }
 
 # Turunin isi sidebar
