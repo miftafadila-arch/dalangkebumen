@@ -17,7 +17,6 @@ background = get_base64("bg/logometro-removebg-preview.png")
 # ==================
 st.set_page_config(
     page_title="DALANG KEBUMEN",
-    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -103,7 +102,7 @@ display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="90">
+    width="80">
 </div>
 
 <!-- Judul Tengah -->
