@@ -127,7 +127,7 @@ text-align:center;
 <h1 style="
 margin:0;
 color:white;
-font-family:'Manrope', sans-serif;
+font-family:'Outfit', sans-serif;
 font-size:40px;
 font-weight:bold;
 ">
