@@ -205,7 +205,6 @@ df["Bulan"] = df["Nomor Bulan"].map(bulan_dict)
 # SIDEBAR
 # =======
 st.sidebar.markdown("## 📌 Filter")
-
 st.sidebar.divider()
 
 # FILTER TAHUN
@@ -421,8 +420,8 @@ fig.update_layout(
         ),
 
     height=650,
-    plot_bgcolor="white",
-    paper_bgcolor="white",
+    plot_bgcolor="rgba(0,0,0,0)",
+    paper_bgcolor="rgba(0,0,0,0)",
     hovermode="closest",
 
     font=dict(
