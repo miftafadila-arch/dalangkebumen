@@ -156,12 +156,12 @@ UPTD Metrologi Legal Kabupaten Kebumen
 
 <!-- Logo Kanan -->
 <div style="
-width:90px;
+width:160px;
 display:flex;
 justify-content:flex-end;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-    width="170">
+    width="220">
 </div>
 
 </div>
