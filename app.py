@@ -355,6 +355,7 @@ for _, row in total_bulan.iterrows():
         showarrow=False,
         yshift=8,
         font=dict(
+            family="Poppins",
             size=14,
             color="black"
         )
@@ -365,6 +366,7 @@ fig.update_xaxes(
     linewidth=1,
     linecolor="black",
     tickfont=dict(
+        family="Poppins",
         color="black",
         size=12
     )
@@ -375,6 +377,7 @@ fig.update_yaxes(
     linewidth=1,
     linecolor="black",
     tickfont=dict(
+        family="Poppins",
         color="black",
         size=12
     )
@@ -395,11 +398,13 @@ fig.update_layout(
     yaxis_title="Jumlah UTTP yang Tertera (Unit)",
     
     xaxis_title_font=dict(
+        family="Poppins",
         color="black",
         size=16
     ),
 
     yaxis_title_font=dict(
+        family="Poppins",
         color="black",
         size=16
     ),
@@ -408,10 +413,12 @@ fig.update_layout(
 
     legend=dict(
         title_font=dict(
+        family="Poppins",
             color="black",
             size=16
         ),
         font=dict(
+            family="Poppins",
             color="black",
             size=12
         ),
@@ -431,6 +438,7 @@ fig.update_layout(
     hovermode="closest",
 
     font=dict(
+        family="Poppins",
         color="black",
         size=12
     ),
