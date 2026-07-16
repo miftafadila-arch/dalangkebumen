@@ -114,7 +114,7 @@ text-align:center;
 <h1 style="
 margin:0;
 color:white;
-font-size:30px;
+font-size:40px;
 font-weight:bold;
 ">
 DALANG KEBUMEN
