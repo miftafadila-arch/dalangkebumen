@@ -32,7 +32,7 @@ st.markdown("""
 st.markdown(f"""
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 /* Font seluruh dashboard */
 html, body, [class*="css"], .stApp {{
@@ -44,19 +44,25 @@ html, body, [class*="css"], .stApp {{
     background-color: #F5F7FA;
 }}
 
-.stApp::before {{
+/* Background Dashboard (Watermark) */
+.stApp {
+    background-color: #F5F7FA;
+}
+
+.stApp::before {
     content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("data:image/png;base64,{background}") center center no-repeat;
-    background-size: 250px;
-    opacity: 0.04;
-    z-index: -1;
+    inset: 0;
+
+    background-image: url("data:image/png;base64,{background}");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 650px;
+
+    opacity: 0.05;
     pointer-events: none;
-}}
+    z-index: -1;
+}
 
 /* Sembunyikan menu Streamlit */
 #MainMenu {{
