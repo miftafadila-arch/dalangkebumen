@@ -384,7 +384,7 @@ fig.update_traces(
 )
 
 fig.update_layout(
-    template="plotly_white",
+    template="none",
     xaxis_title="Bulan ke-",
     yaxis_title="Jumlah UTTP yang Tertera (Unit)",
     
