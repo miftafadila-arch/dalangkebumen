@@ -36,7 +36,7 @@ st.markdown(f"""
 
 /* Font seluruh dashboard */
 html, body, [class*="css"], .stApp {{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }}
 
 /* Background Dashboard (Watermark) */
