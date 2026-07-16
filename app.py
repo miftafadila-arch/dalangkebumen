@@ -120,6 +120,7 @@ text-align:center;
 <h1 style="
 margin:0;
 color:white;
+family="Poppins";
 font-size:40px;
 font-weight:bold;
 ">
@@ -130,6 +131,7 @@ DALANG KEBUMEN
 margin:2px 0;
 font-size:25px;
 color:white;
+family="Poppins"
 ">
 Dashboard Pelayanan Tera / Tera Ulang
 </p>
@@ -138,6 +140,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 margin:2px 0 0 0;
 font-size:20px;
 color:#EEF5FF;
+family="Poppins"
 ">
 UPTD Metrologi Legal Kabupaten Kebumen
 </p>
