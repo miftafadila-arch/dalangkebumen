@@ -103,7 +103,7 @@ display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="70">
+    width="90">
 </div>
 
 <!-- Judul Tengah -->
@@ -146,7 +146,7 @@ display:flex;
 justify-content:flex-end;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-    width="80">
+    width="1100">
 </div>
 
 </div>
