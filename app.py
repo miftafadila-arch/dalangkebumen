@@ -455,7 +455,7 @@ fig.update_layout(
 
     margin=dict(
         l=40,
-        r=40,
+        r=120,
         t=40,
         b=40
     )
