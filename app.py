@@ -27,43 +27,53 @@ st.set_page_config(
 st.markdown(f"""
 <style>
 
-/* Background Dashboard */
+/* Background Dashboard (Watermark) */
 .stApp {{
-    background-image: url("data:image/png;base64,{background}");
-    background-size: 350px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #F5F7FA;
+}}
+
+.stApp::before {{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/png;base64,{background}") center center no-repeat;
+    background-size: 250px;
+    opacity: 0.04;
+    z-index: -1;
+    pointer-events: none;
 }}
 
 /* Sembunyikan menu Streamlit */
 #MainMenu {{
-    visibility:hidden;
+    visibility: hidden;
 }}
 
 footer {{
-    visibility:hidden;
+    visibility: hidden;
 }}
 
 /* Hilangkan padding atas */
 .block-container {{
-    padding-top:2rem;
-    padding-bottom:1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }}
 
 /* Sidebar */
 section[data-testid="stSidebar"] {{
-    background-color:white;
+    background-color: white;
 }}
 
 /* Turunkan isi sidebar */
 section[data-testid="stSidebar"] > div:first-child {{
-    padding-top:60px;
+    padding-top: 60px;
 }}
 
 /* Judul Sidebar */
 section[data-testid="stSidebar"] h2 {{
-    color:#0F4C81;
+    color: #0F4C81;
 }}
 
 </style>
