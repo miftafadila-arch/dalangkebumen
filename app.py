@@ -21,14 +21,10 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-</style>
-""", unsafe_allow_html=True)
-
 # CSS SEDERHANA
 # =============
+# CSS
+# ===
 st.markdown(f"""
 <style>
 
@@ -39,17 +35,12 @@ html, body, [class*="css"], .stApp {{
     font-family: 'Manrope', sans-serif;
 }}
 
-/* Background Dashboard (Watermark) */
+/* Background Dashboard */
 .stApp {{
     background-color: #F5F7FA;
 }}
 
-/* Background Dashboard (Watermark) */
-.stApp {
-    background-color: #F5F7FA;
-}
-
-.stApp::before {
+.stApp::before {{
     content: "";
     position: fixed;
     inset: 0;
@@ -62,7 +53,7 @@ html, body, [class*="css"], .stApp {{
     opacity: 0.05;
     pointer-events: none;
     z-index: -1;
-}
+}}
 
 /* Sembunyikan menu Streamlit */
 #MainMenu {{
