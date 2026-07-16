@@ -102,7 +102,7 @@ display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="70">
+    width="90">
 </div>
 
 <!-- Judul Tengah -->
@@ -122,7 +122,7 @@ DALANG KEBUMEN
 
 <p style="
 margin:2px 0;
-font-size:23px;
+font-size:25px;
 color:white;
 ">
 Dashboard Pelayanan Tera / Tera Ulang
@@ -130,7 +130,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 
 <p style="
 margin:2px 0 0 0;
-font-size:18px;
+font-size:20px;
 color:#EEF5FF;
 ">
 UPTD Metrologi Legal Kabupaten Kebumen
@@ -145,7 +145,7 @@ display:flex;
 justify-content:flex-end;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-    width="100">
+    width="110">
 </div>
 
 </div>
