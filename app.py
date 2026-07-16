@@ -32,6 +32,13 @@ st.markdown("""
 st.markdown(f"""
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Font seluruh dashboard */
+html, body, [class*="css"], .stApp {{
+    font-family: 'Poppins', sans-serif;
+}}
+
 /* Background Dashboard (Watermark) */
 .stApp {{
     background-color: #F5F7FA;
@@ -120,7 +127,7 @@ text-align:center;
 <h1 style="
 margin:0;
 color:white;
-family="Poppins";
+font-family:'Poppins', sans-serif;
 font-size:40px;
 font-weight:bold;
 ">
@@ -131,7 +138,7 @@ DALANG KEBUMEN
 margin:2px 0;
 font-size:25px;
 color:white;
-family="Poppins"
+font-family:'Poppins', sans-serif;
 ">
 Dashboard Pelayanan Tera / Tera Ulang
 </p>
@@ -140,7 +147,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 margin:2px 0 0 0;
 font-size:20px;
 color:#EEF5FF;
-family="Poppins"
+font-family:'Poppins', sans-serif;
 ">
 UPTD Metrologi Legal Kabupaten Kebumen
 </p>
