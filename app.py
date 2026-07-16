@@ -122,7 +122,7 @@ DALANG KEBUMEN
 
 <p style="
 margin:2px 0;
-font-size:18px;
+font-size:23px;
 color:white;
 ">
 Dashboard Pelayanan Tera / Tera Ulang
@@ -130,7 +130,7 @@ Dashboard Pelayanan Tera / Tera Ulang
 
 <p style="
 margin:2px 0 0 0;
-font-size:14px;
+font-size:18px;
 color:#EEF5FF;
 ">
 UPTD Metrologi Legal Kabupaten Kebumen
