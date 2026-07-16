@@ -145,7 +145,7 @@ display:flex;
 justify-content:flex-end;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-    width="120">
+    width="140">
 </div>
 
 </div>
