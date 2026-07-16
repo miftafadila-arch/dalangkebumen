@@ -110,12 +110,12 @@ justify-content:space-between;
 
 <!-- Logo Kiri -->
 <div style="
-width:120px;
+width:125px;
 display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="110">
+    width="120">
 </div>
 
 <!-- Judul Tengah -->
