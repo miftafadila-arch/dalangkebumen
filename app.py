@@ -112,7 +112,7 @@ display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="120">
+    width="110">
 </div>
 
 <!-- Judul Tengah -->
