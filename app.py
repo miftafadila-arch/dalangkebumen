@@ -107,12 +107,12 @@ justify-content:space-between;
 
 <!-- Logo Kiri -->
 <div style="
-width:125px;
+width:115px;
 display:flex;
 justify-content:flex-start;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logo.png"
-    width="110">
+    width="100">
 </div>
 
 <!-- Judul Tengah -->
@@ -153,12 +153,12 @@ UPTD Metrologi Legal Kabupaten Kebumen
 
 <!-- Logo Kanan -->
 <div style="
-width:160px;
+width:155px;
 display:flex;
 justify-content:flex-end;
 ">
 <img src="https://raw.githubusercontent.com/miftafadila-arch/dalangkebumen/main/logometro-removebg-preview.png"
-    width="220">
+    width="210">
 </div>
 
 </div>
